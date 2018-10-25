@@ -1,6 +1,6 @@
 "use strict";
-const num_requests = 10;  // Number of requests to make. Adjust if necessary.
-const request_intervale = 1000;  // Intervale between each request in millisecond. Adjust if necessary.
+const num_requests = 50;  // Number of requests to make. Adjust if necessary.
+const request_intervale = 100;  // Intervale between each request in millisecond. Adjust if necessary.
 
 const rp = require('request-promise');
 

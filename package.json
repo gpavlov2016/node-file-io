@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "node --max-old-space-size=2048 server.js",
-    "test": "node test.js"
+    "test": "node test-multi.js"
   },
   "author": "songsc",
   "license": "ISC",
   "dependencies": {
-    "csv-query": "0.0.4",
+    "compression": "^1.7.3",
     "express": "^4.16.4",
+    "fileio": "^2.2.1",
     "package.json": "^2.0.1",
+    "random-int": "^1.0.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   }
